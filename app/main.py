@@ -6,7 +6,7 @@ import zipfile
 import io
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/resizeimage": {"origins": ["https://tresizer.sn1316.com"]}})
+CORS(app, resources={r"/api/resizeimage": {"origins": ["https://resizer.sn1316.com"]}})
 
 @app.route('/api/resizeimage', methods=['POST'])
 def resize_image():
