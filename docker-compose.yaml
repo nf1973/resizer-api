@@ -7,3 +7,4 @@ services:
       - "5004:5000"
     volumes:
       - ./app:/app
+    restart: always
